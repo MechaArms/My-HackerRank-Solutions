@@ -34,7 +34,7 @@ Explanation
 
 import java.util.*
 
-fun solveMeFirst(a: Int, b: Int): Int = a + b
+fun solveMeFirst(a: Int, b: Int): Int = a + b   // answer
 
 fun main(args: Array<String>) {
     val sc = Scanner(System.`in`)
