@@ -54,6 +54,10 @@ There are 3 positive numbers, 2 negative numbers, and 1 zero in the array.
 The proportions of occurrence are positive: 3/6 = 0.500000, negative: 2/6 = 0.333333 and zeros: 1/6 = 0.166667.
 */
 
+
+//My Solution
+//===========
+
 fun plusMinus(arr: Array<Int>): Unit {  // answer
     var pos: Int = 0
     var neg: Int = 0
@@ -73,6 +77,31 @@ fun plusMinus(arr: Array<Int>): Unit {  // answer
     println(negResult)
     println(posResult)
     println(zeroResult)
+}
+
+fun main(args: Array<String>) {
+    val n = readLine()!!.trim().toInt()
+
+    val arr = readLine()!!.trimEnd().split(" ").map{ it.toInt() }.toTypedArray()
+
+    plusMinus(arr)
+}
+
+//Clever Solution
+//===============
+
+fun plusMinus(arr: Array<Int>): Unit {
+    var positives: Int = 0 
+    var negatives: Int = 0
+    var neutral: Int = 0
+    for(i in arr){
+        when  {i > 0  -> positives ++
+               i < 0 ->  negatives ++
+               i == 0 ->   neutral ++}
+    }
+        println(positives.toDouble()/arr.size)
+        println(negatives.toDouble()/arr.size)
+        println(neutral.toDouble()/arr.size)
 }
 
 fun main(args: Array<String>) {
