@@ -1,2 +1,2 @@
-# Hacker-Rank
+# HackerRank
 Exercises from my Hacke Rank account
