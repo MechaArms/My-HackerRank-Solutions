@@ -48,12 +48,12 @@ Sample Output
 0.500000
 0.333333
 0.166667
+
 Explanation
 
 There are 3 positive numbers, 2 negative numbers, and 1 zero in the array.
 The proportions of occurrence are positive: 3/6 = 0.500000, negative: 2/6 = 0.333333 and zeros: 1/6 = 0.166667.
 */
-
 
 //My Solution
 //===========
