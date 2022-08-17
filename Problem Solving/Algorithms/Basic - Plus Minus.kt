@@ -20,7 +20,7 @@ Complete the plusMinus function in the editor below.
 plusMinus has the following parameter(s):
 
 int arr[n]: an array of integers
-Print
+
 Print the ratios of positive, negative and zero values in the array. Each value should be printed on a separate line with  digits after the decimal. The function should not return a value.
 
 Input Format
