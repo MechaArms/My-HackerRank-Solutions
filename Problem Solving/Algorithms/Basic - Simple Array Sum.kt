@@ -10,6 +10,7 @@ Complete the simpleArraySum function in the editor below. It must return the sum
 simpleArraySum has the following parameter(s):
 
 ar: an array of integers
+
 Input Format
 
 The first line contains an integer, , denoting the size of the array.
@@ -23,9 +24,11 @@ Sample Input
 
 6
 1 2 3 4 10 11
+
 Sample Output
 
 31
+
 Explanation
 
 We print the sum of the array's elements: 1 + 2 + 3 + 4 + 10 + 11 = 31
