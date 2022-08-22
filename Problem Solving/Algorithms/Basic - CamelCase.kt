@@ -67,3 +67,18 @@ fun main(args: Array<String>) {
 
     println(result)
 }
+
+//Best Solution
+//=============
+
+fun camelcase(s: String): Int {
+     return 1 + s.count { it.isUpperCase() }
+}
+
+fun main(args: Array<String>) {
+    val s = readLine()!!
+
+    val result = camelcase(s)
+
+    println(result)
+}
