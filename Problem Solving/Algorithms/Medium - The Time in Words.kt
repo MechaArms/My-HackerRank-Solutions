@@ -34,20 +34,25 @@ Sample Input 0
 
 5
 47
+
 Sample Output 0
 
 thirteen minutes to six
+
 Sample Input 1
 
 3
 00
+
 Sample Output 1
 
 three o' clock
+
 Sample Input 2
 
 7
 15
+
 Sample Output 2
 
 quarter past seven
