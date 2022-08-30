@@ -17,9 +17,9 @@ Constraints
 Word contains no more than 10 letters.
 
 Output Format
+
 Print a single integer denoting the area in mm² of highlighted rectangle when the given word is selected.
 Do not print units of measure.
-
 
 Sample Input 0
 
