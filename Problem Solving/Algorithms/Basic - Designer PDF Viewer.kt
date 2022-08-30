@@ -1,5 +1,56 @@
 /*
+When you select a contiguous block of text in a PDF viewer, the selection is highlighted with a blue
+rectangle. In this PDF viewer, each word is highlighted independently.
 
+In this challenge, you will be given a list of letter heights in the alphabet and a string. Using the letter
+heights given, determine the area of the rectangle highlight in mm² assuming all letters are wide.
+
+Input Format
+
+The first line contains 26space-separated integers describing the respective heights of each consecutive
+lowercase English letter, ascii[a-z].
+The second line contains a single word, consisting of lowercase English alphabetic letters.
+
+Constraints
+
+1 <= h? <= 7, where ? is an English lowercase letter.
+Word contains no more than 10 letters.
+
+Output Format
+Print a single integer denoting the area in mm² of highlighted rectangle when the given word is selected.
+Do not print units of measure.
+
+
+Sample Input 0
+
+1 3 1 3 1 4 1 3 2 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5
+abc
+
+Sample Output 0
+
+9
+
+Explanation 0
+
+We are highlighting the word abc :
+
+Letter heights are a=1, b=3 and c=1. The tallest letter, b, is 3mm high. The selection area for this
+word is 3 * 1mm * 3mm = 9 mm².
+
+Note: Recall that the width of each character is .
+
+Sample Input 1
+
+1 3 1 3 1 4 1 3 2 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 7
+zaba
+
+Sample Output 1
+
+28
+
+Explanation 1
+
+The tallest letter in is at . The selection area for this word is 
 */
 
 import java.io.*
