@@ -75,8 +75,8 @@ fun rotateLeft(d: Int, arr: Array<Int>): Array<Int> {
     // Write your code here
     var rotate =  arr.toMutableList()
     for (i in 0 until d){
-        rotate.add(arr[i])
-        rotate.removeAt(0)
+        rotate.add(arr[i])  // add the first value of the Array and put in the end of the list
+        rotate.removeAt(0)  // remove the first value of the list
     }
     return rotate.toTypedArray()
 }
