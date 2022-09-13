@@ -4,3 +4,6 @@
 
 My solutions in HackeRank website
 <p>Kotlin Exercises</p>
+
+Note
+<p>The compliler for this exercises in the site was made before Kotlin version 1.3</p>
