@@ -5,4 +5,4 @@
 My Kotlin Exercises solutions in HackeRank website
 
 Note:
-The compliler for this exercises in the site was made before Kotlin version 1.3
+The compliler in the HackerRank website was made before Kotlin version 1.3
